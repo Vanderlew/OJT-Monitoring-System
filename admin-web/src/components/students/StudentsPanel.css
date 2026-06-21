@@ -1,0 +1,62 @@
+.students-panel .users-toolbar {
+  justify-content: flex-start;
+}
+
+.students-enrollment-section {
+  margin-bottom: 20px;
+}
+
+.students-details-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  border-top: 1px solid var(--border);
+}
+
+.students-details-footer .btn {
+  margin-top: 0;
+  width: auto;
+  min-width: 120px;
+}
+
+.enroll-modal-overlay {
+  z-index: 1100;
+}
+
+.enroll-student-name {
+  margin: 0 24px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-muted, #6b7280);
+}
+
+.enroll-student-name strong {
+  color: var(--text-h);
+}
+
+.enroll-modal-overlay .modal-form {
+  padding: 0 24px 24px;
+}
+
+.enroll-modal-overlay .school-year-end-hint {
+  margin-bottom: 16px;
+}
+
+.enroll-modal-overlay .school-year-end-preview {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+  background: var(--code-bg, #f3f4f6);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.enroll-modal-overlay .school-year-end-hint {
+  font-size: 13px;
+  color: var(--text-muted, #6b7280);
+}

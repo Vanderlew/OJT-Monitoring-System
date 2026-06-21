@@ -1,0 +1,352 @@
+.dashboard-content {
+  --padding-bottom: 24px;
+}
+
+.dashboard-welcome-card ion-card-title {
+  font-size: 24px;
+}
+
+.dashboard-role-badge {
+  margin-bottom: 12px;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+.dashboard-message {
+  margin: 0;
+  color: var(--ion-color-medium);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.dashboard-section-title {
+  margin: 20px 4px 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ion-color-medium);
+}
+
+.dashboard-stat-grid {
+  padding: 0;
+  margin: 0 -4px;
+}
+
+.dashboard-stat-card {
+  margin: 0;
+  height: 100%;
+  box-shadow: none;
+  border: 1px solid var(--ion-color-step-150, #e5e4e7);
+}
+
+.dashboard-stat-card ion-card-content {
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.dashboard-stat-label {
+  margin: 0 0 6px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.dashboard-stat-value {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ion-text-color);
+  line-height: 1.2;
+}
+
+.dashboard-stat-hint {
+  margin: 6px 0 0;
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.dashboard-highlight-card ion-card-title {
+  font-size: 17px;
+}
+
+.dashboard-highlight-card p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.dashboard-action-list {
+  margin-top: 0;
+}
+
+.dashboard-action-list ion-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dashboard-action-list ion-item p {
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.dashboard-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 12px;
+}
+
+.dashboard-loading p {
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.profile-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ion-color-medium);
+  padding: 16px 16px 8px;
+}
+
+.profile-value-empty {
+  color: var(--ion-color-medium);
+}
+
+/* Coordinator overview */
+.coordinator-stat-grid {
+  padding: 0;
+  margin: 0;
+}
+
+.coordinator-stat-card {
+  margin: 0 0 12px;
+  box-shadow: none;
+  border: 1px solid var(--ion-color-step-150, #e5e4e7);
+  border-radius: 12px;
+}
+
+.coordinator-stat-card ion-card-content {
+  padding: 16px 14px;
+}
+
+.coordinator-stat-icon {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.coordinator-stat-card--blue .coordinator-stat-icon {
+  color: #2563eb;
+}
+
+.coordinator-stat-card--green .coordinator-stat-icon {
+  color: #16a34a;
+}
+
+.coordinator-stat-card--purple .coordinator-stat-icon {
+  color: #9333ea;
+}
+
+.coordinator-stat-card--orange .coordinator-stat-icon {
+  color: #ea580c;
+}
+
+.coordinator-stat-value {
+  margin: 0 0 4px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ion-text-color);
+}
+
+.coordinator-stat-label {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--ion-color-medium);
+}
+
+.coordinator-attention {
+  margin-top: 8px;
+}
+
+.coordinator-assigned {
+  margin-top: 8px;
+}
+
+.coordinator-assigned-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 4px 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ion-color-step-150, #e5e4e7);
+}
+
+.coordinator-assigned-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.coordinator-assigned-title h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ion-text-color);
+}
+
+.coordinator-assigned-icon {
+  font-size: 20px;
+  color: var(--ion-color-primary);
+}
+
+.coordinator-assigned-count {
+  --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  --color: var(--ion-color-primary);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.coordinator-assigned-list {
+  margin-top: 0;
+}
+
+.coordinator-assigned-list ion-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.coordinator-assigned-list ion-item p {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.coordinator-assigned-email {
+  word-break: break-word;
+}
+
+.coordinator-assigned-year {
+  font-size: 12px;
+  font-weight: 600;
+  max-width: 88px;
+  text-align: right;
+}
+
+.coordinator-assigned-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.coordinator-assigned-state p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ion-color-medium);
+}
+
+.coordinator-assigned-state--error p {
+  color: var(--ion-color-danger);
+}
+
+.coordinator-attention-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 4px 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ion-color-step-150, #e5e4e7);
+}
+
+.coordinator-attention-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.coordinator-attention-title h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ion-text-color);
+}
+
+.coordinator-attention-icon {
+  font-size: 20px;
+  color: #ea580c;
+}
+
+.coordinator-attention-count {
+  --background: #ffedd5;
+  --color: #c2410c;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.coordinator-attention-list {
+  margin-top: 0;
+}
+
+.coordinator-attention-list ion-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.coordinator-attention-list ion-item p {
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.coordinator-attention-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.coordinator-attention-badge--urgent {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.coordinator-attention-badge--follow-up {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .coordinator-attention-badge--urgent {
+    background: rgba(190, 24, 93, 0.2);
+    color: #f9a8d4;
+  }
+
+  .coordinator-attention-badge--follow-up {
+    background: rgba(234, 88, 12, 0.2);
+    color: #fdba74;
+  }
+
+  .coordinator-attention-count {
+    --background: rgba(234, 88, 12, 0.2);
+    --color: #fdba74;
+  }
+}

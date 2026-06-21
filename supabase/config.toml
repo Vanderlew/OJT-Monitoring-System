@@ -1,0 +1,5 @@
+# Minimal Supabase project config for Edge Functions
+# See https://supabase.com/docs/guides/cli/config
+
+[functions.register-user]
+verify_jwt = true

@@ -1,0 +1,46 @@
+.school-years-panel .users-toolbar {
+  justify-content: space-between;
+}
+
+.school-years-summary {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted, #6b7280);
+}
+
+.modal-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.modal-checkbox-label input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.school-year-end-preview {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+  background: var(--code-bg, #f3f4f6);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.school-year-end-hint {
+  margin: -4px 0 12px;
+  font-size: 13px;
+  color: var(--text-muted, #6b7280);
+}

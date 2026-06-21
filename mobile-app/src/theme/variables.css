@@ -1,0 +1,44 @@
+/* OJT Monitoring — Ionic theme (aligned with admin web accent) */
+
+:root {
+  --ion-color-primary: #aa3bff;
+  --ion-color-primary-rgb: 170, 59, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #9634e0;
+  --ion-color-primary-tint: #b34fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-color-primary: #c084fc;
+    --ion-color-primary-rgb: 192, 132, 252;
+    --ion-color-primary-shade: #a974de;
+    --ion-color-primary-tint: #c690fc;
+  }
+}
+
+.access-denied {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 16px;
+  text-align: center;
+}
+
+.access-denied h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.access-denied p {
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+.access-denied ion-button {
+  max-width: 280px;
+  width: 100%;
+}
